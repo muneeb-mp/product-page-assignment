@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.text--muted {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 1154px;
+    margin: auto;
+    background: #fff;
+    display: flex;
+    padding: 56px 60px;
+    gap: 60px;
+}
+
+.image__big {
+    width: 762px;
+    height: 512px;
+}
+
+.fa-heart {
+    position: absolute;
+    left: 53%;
+    right: 46%;
+    top: 7%;
+    bottom: 88%;
+    font-size: 32px;
+}
+
+.images__small {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.image__small {
+    width: 367px;
+    height: 247px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.product__brand {
+    font-weight: 500;
+}
+
+.product__name {
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.pricing {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.pricing__discounted {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.pricing__original {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: line-through;
+    margin: 0 8px 0 15px;
+}
+
+.pricing__discount {
+    width: 95px;
+    height: 30px;
+    color: #fff;
+    background: #FC4C8C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__taxes {
+    font-weight: 600;
+    font-size: 11px;
+    margin-top: 8px;
+}
+
+.size {
+    margin: 24px 0 30px 0;
+}
+
+.size__header {
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.sizes {
+    display: flex;
+    gap: 18px;
+    margin: 4px 0 8px 0;
+    cursor: pointer;
+}
+
+.sizes__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    font-weight: 700;
+}
+
+.sizes__list--selected {
+    color: #fff;
+    background-color: #000;
+}
+
+.size__warning {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff0000;
+    display: none;
+}
+
+.quantity__header {
+    font-weight: 700;
+    margin: 30px 0 8px 0;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    width: 82px;
+    border: 1px solid #000000;
+}
+
+.amount__icon {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.purchase--btn {
+    width: 232px;
+    height: 40px;
+    border: 1px solid #27386E;
+    margin: 26px 0 0 0;
+    cursor: pointer;
+}
+
+.purchase__addtocart {
+    background-color: #000;
+    color: #fff;
+    margin-right: 26px;
+}
+
+.purchase__buynow {
+    background-color: #fff;
+}
+
+.purchase__added {
+    font-size: 14px;
+    font-weight: 600;
+    color: #088A2C;
+    display: none;
+    margin-bottom: 24px;
+}
+
+.purchase__hidden{
+    margin-bottom: 24px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.location {
+    margin: 24px 0;
+}
+
+.location__header {
+    text-transform: uppercase;
+}
+
+.pincode {
+    margin: 28px 0 20px 0;
+    display: flex;
+}
+
+.fa-location-dot {
+    font-size: 30px;
+}
+
+.pin {
+    margin-left: 10px;
+    width: 185px;
+}
+
+.pin__input {
+    border: none;
+    padding: 0 0 10px 10px;
+    width: 120px;
+}
+
+.pin__input:focus {
+    outline: none;
+}
+
+.pin__change {
+    color: #FC4C8C;
+    cursor: pointer;
+}
+
+.location__delivery {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.description {
+    margin: 24px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+.description__info {
+    width: 460px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+.type, .use {
+    margin: 12px 0;
+}

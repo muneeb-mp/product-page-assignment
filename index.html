@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="container">
+        <div class="images">
+            <img src="./images//7fd83a147846813 1.png" alt="" class="image__big">
+            <i class="fa-regular fa-heart"></i>
+            <div class="images__small">
+                <img src="./images/7fd83a147846813 2.png" alt="" class="image__small">
+                <img src="./images/7fd83a147846813 3.png" alt="" class="image__small">
+            </div>
+        </div>
+        <div class="product">
+            <p class="product__brand text--muted">Nike</p>
+            <h1 class="product__name">Priming with a Hydrating</h1>
+            <hr class="text--muted">
+            <div class="pricing">
+                <h1 class="pricing__discounted">Rs. 7999</h1>
+                <span class="pricing__original text--muted">12000</span>
+                <span class="pricing__discount">40% off</span>
+            </div>
+            <p class="product__taxes text--muted">Inclusive of all taxes</p>
+            <div class="size">
+                <h4 class="size__header text--muted">Size</h4>
+                <ul class="sizes">
+                    <li class="sizes__list">7</li>
+                    <li class="sizes__list">8</li>
+                    <li class="sizes__list">9</li>
+                    <li class="sizes__list">10</li>
+                    <li class="sizes__list">11</li>
+                    <li class="sizes__list">12</li>
+                </ul>
+                <span class="size__warning">Please select the size</span>
+            </div>
+            <hr class="text--muted line--margin">
+            <div class="quantity">
+                <h4 class="quantity__header">Quantity</h4>
+                <div class="amount">
+                    <i class="amount__icon fa-solid fa-minus"></i>
+                    <span class="amount__number">1</span>
+                    <i class="amount__icon fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="purchase">
+                <button class="purchase__addtocart purchase--btn">Add to Cart</button>
+                <button class="purchase__buynow purchase--btn">Buy Now</button>
+                <span class="purchase__added">Priming with a hydrating size <span class="size__num">7</span> added to the cart</span>
+                <span class="purchase__hidden"></span>
+            </div>
+            <hr class="text--muted">
+            <div class="location">
+                <h4 class="location__header">Delivery Options</h4>
+                <div class="pincode">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="pin">
+                        <input type="text" value="131644" class="pin__input">
+                        <span class="pin__change">Change</span>
+                        <hr>
+                    </div>
+                </div>
+                <p class="location__delivery text--muted">Delivery by 4 Aug, Thursday</p>
+            </div>
+            <hr class="text--muted">
+            <div class="information">
+                <div class="description">
+                    <div class="header">
+                        <h4 class="header__title">Description</h4>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <p class="description__info">The quick fix for any skin emergency!<br> This targeted serum controls and minimizes the appearance of all imperfections,<br> from pimples and flakes to minor lesions.<br> The appearance of imperfections is quickly reduced while the skin regains its balance.<br>Formulated in UHT which allows minimal use of preservatives</p>
+                </div>
+                <hr class="text--muted">
+                <div class="type">
+                    <div class="header">
+                        <h4 class="header__title">Content Type</h4>
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+                </div>
+                <hr class="text--muted">
+                <div class="use">
+                    <div class="header">
+                        <h4 class="header__title">Use</h4>
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+                </div>
+                <hr class="text--muted">
+            </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
